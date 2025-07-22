@@ -1,0 +1,17 @@
+{
+	"name": "Devpipeline",
+	"properties": {
+		"activities": [
+			{
+				"name": "Waitfor10seconds",
+				"type": "Wait",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 10
+				}
+			}
+		],
+		"annotations": []
+	}
+}
